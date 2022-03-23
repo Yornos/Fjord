@@ -29,6 +29,7 @@ a:hover {
 
 .bloc {
     width: 100%;
+    margin-top: 21px;
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -37,6 +38,10 @@ a:hover {
     -o-background-size: cover;
     background-size: cover;
     position: relative;
+}
+
+.footer--mrg {
+    margin-top: 0px;
 }
 
 .bloc .container {
@@ -677,7 +682,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 17px;
 }
 
 .tight-width-whitespace {
@@ -771,20 +776,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #0575E6;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: linear-gradient(to right, #021B79, #0575E6);
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #021B79;
     color: #FFFFFF!important;
 }
 
@@ -958,8 +963,7 @@ h4 {
         box-shadow: none;
     }
     .navbar-brand img {
-        max-height: 40px;
-        width: auto;
+        width: 240px;
     }
     .nav-invert .navbar-header {
         float: none;
